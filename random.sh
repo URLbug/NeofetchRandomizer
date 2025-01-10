@@ -1,8 +1,8 @@
 #!/bin/bash
 
-IMAGE_DIR="/home/$(whoami)/NeofetchRandomizer/images"
+IMAGE_DIR="$HOME/NeofetchRandomizer/images"
 
-USED_IMAGES_FILE="/home/$(whoami)/NeofetchRandomizer/used_images.txt"
+USED_IMAGES_FILE="$HOME/NeofetchRandomizer/used_images.txt"
 
 touch "$USED_IMAGES_FILE"
 
